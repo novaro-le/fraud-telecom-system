@@ -137,3 +137,17 @@ Le projet utilise un modèle supervisé de classification (ex: **Random Forest /
 * Amélioration du modèle avec Deep Learning
 
 ---
+## ⚠️ Remarques importantes
+
+### Message : "Aucune donnée disponible"
+
+Si le dashboard affiche le message :
+
+> Aucune donnée disponible.
+
+Ce n'est **pas une erreur**.
+
+Cela signifie simplement qu'aucune transaction n'a encore été enregistrée dans la base de données. Les graphiques, statistiques et historiques ne peuvent être affichés qu'après l'enregistrement d'au moins une transaction.
+
+
+Une fois des transactions simulées, les statistiques, graphiques et l'historique s'afficheront automatiquement.

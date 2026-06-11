@@ -466,7 +466,9 @@ st.subheader(" Répartition des Fraudes par Type")
 required_col = "transaction_type"
 
 if history_db.empty:
-    st.warning("Aucune donnée disponible.")
+    st.warning(
+                 "Aucune donnée disponible. Ceci n'est pas une erreur. Veuillez simuler une transaction afin d'alimenter les statistiques et l'historique."
+                )
 elif required_col not in history_db.columns:
     st.error(f"Colonne manquante : {required_col}")
 else:
