@@ -71,7 +71,7 @@ fraud-detection-project/
 ### 1.le projet
 
 ```bash
-git clone https://github.com/ton-compte/fraud-detection-project.git
+git clone https://github.com/novaro-le/fraud-telecom-system.git
 cd fraud-detection-project
 ```
 
