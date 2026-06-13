@@ -170,7 +170,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Lancer l'API
+##  Lancer l'API
 
 ```bash
 uvicorn api.app:app --reload
@@ -184,7 +184,7 @@ http://localhost:8000/docs
 
 ---
 
-## 📈 Lancer le Dashboard
+##  Lancer le Dashboard
 
 ```bash
 streamlit run dashboard/dashboard.py
@@ -192,7 +192,7 @@ streamlit run dashboard/dashboard.py
 
 ---
 
-## 🐳 Déploiement Docker
+##  Déploiement Docker
 
 Construire et lancer les services :
 
@@ -235,21 +235,21 @@ Retourne les statistiques enregistrées.
 
 ##  Fonctionnalités du Dashboard
 
-✅ Prédiction de fraude
+ Prédiction de fraude
 
-✅ Historique des transactions
+ Historique des transactions
 
-✅ Statistiques globales
+ Statistiques globales
 
-✅ Visualisations interactives
+ Visualisations interactives
 
-✅ Analyse des montants
+ Analyse des montants
 
-✅ Répartition fraude / non fraude
+ Répartition fraude / non fraude
 
 ---
 
-## ⚠️ Remarque
+##  Remarque
 
 Si le dashboard affiche :
 
